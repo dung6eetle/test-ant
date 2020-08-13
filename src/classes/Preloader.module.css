@@ -1,0 +1,13 @@
+@import '../../../web-ant/node_modules/antd/dist/antd.css';
+
+.preloaderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.preloader {
+    padding-bottom: 20px;
+}
+.preloaderText {
+    font-size: 14px;
+}

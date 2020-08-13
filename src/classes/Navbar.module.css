@@ -1,0 +1,20 @@
+
+.nav {
+  
+}
+.navContainer {
+  display: flex;
+  flex-direction: row;
+}
+.item {
+ padding-right: 50px; 
+}
+
+.item a {
+  font-size: 14px;
+  color: rgb(133, 131, 131);
+  text-decoration: none;
+}
+.item a.activeLink {
+  color: #ED5992;
+}

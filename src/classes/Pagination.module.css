@@ -1,0 +1,22 @@
+
+.pageCountContainer {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+}
+.pageCount{
+    margin: 0px 10px;
+    cursor:pointer;
+}
+.selectedPage {
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #ED5992;
+    padding: 7px 14px;
+}
+.defaultPage {
+    font-size: 14px;
+    background-color: #F0F2F5;
+    padding: 7px 14px;
+}

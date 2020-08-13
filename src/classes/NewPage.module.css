@@ -1,0 +1,23 @@
+.newPage {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 45px 45px;
+}
+.main {
+  height: 100%;
+}
+
+.cards {
+  padding-bottom: 34px;
+}
+.cardImg {
+  width: 248px;
+  height: 187px;
+  border-radius: 7px;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+}
