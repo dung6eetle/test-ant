@@ -2,7 +2,6 @@ import * as Axios from "axios";
 
 const instance = Axios.create({
     baseURL: `http://gallery.dev.webant.ru/`,
-    // headers: { accept: "application/json" , "content-type": "application/json"}
 })
 
 const headers = {accept: "application/json" , "content-type": "application/json", "Access-Control-Allow-Origin": "*"}
@@ -21,7 +20,7 @@ export const authApi = {
         .get(`oauth/v2/token?client_id=${client_id}&grant_type=password&username=dung6eetle&password=12345&client_secret=${client_secret}`, headers)
     }
 }
-  
+
 export const itemsApi =  {
   getItems (currentPage, pageSize) {
     return instance.get(

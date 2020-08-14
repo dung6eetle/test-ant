@@ -1,4 +1,4 @@
-.newPage {
+.new_page {
   height: 100%;
   display: flex;
   flex-direction: row;
@@ -13,7 +13,7 @@
 .cards {
   padding-bottom: 34px;
 }
-.cardImg {
+.card_img {
   width: 248px;
   height: 187px;
   border-radius: 7px;

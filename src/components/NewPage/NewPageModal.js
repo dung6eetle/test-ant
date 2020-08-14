@@ -19,18 +19,18 @@ class NewPageModal extends React.Component {
 
   render() {
     return ReactDOM.createPortal(
-      <div className={classes.modal}>
-        <div className={classes.modalDialog}>
-          <div className={classes.modalContent}>
-            <div className={classes.modalImage}>
+      <div className={classes.modal} onClick={() => this.props.closeModalAC()}>
+        <div className={classes.modal_dialog}>
+          <div className={classes.modal_content}>
+            <div className={classes.modal_image}>
               <img
                 src={`http://gallery.dev.webant.ru/media/${this.props.modalItem.image}`}
               ></img>
             </div>
-            <div className={classes.modalName}>
+            <div className={classes.modal_name}>
               {this.props.modalItem.name}
             </div>
-            <div className={classes.modalDiscription}>
+            <div className={classes.modal_discription}>
               <p>
               {this.props.modalItem.description}
               </p>

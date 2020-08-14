@@ -3,8 +3,8 @@ import classes from "../../classes/Popular.module.css";
 
 const Popular = () => {
   return (
-    <div className={classes.popularContainer}>
-      <div className={classes.popularImg}>
+    <div className={classes.popular_container}>
+      <div className={classes.popular_img}>
         <svg
           width="126"
           height="137"
@@ -61,10 +61,10 @@ const Popular = () => {
           </defs>
         </svg>
       </div>
-      <div className={classes.popularTitle}>
+      <div className={classes.popular_title}>
       Oh shucks!
       </div>
-      <div className={classes.popularDiscription}>
+      <div className={classes.popular_discription}>
       <p>Slow or no internet connection.<br></br>
       Please check your internet settings
       </p>

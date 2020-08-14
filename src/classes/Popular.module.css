@@ -1,4 +1,4 @@
-.popularContainer {
+.popular_container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -6,13 +6,13 @@
     height: 100vh;
     
 }
-.popularTitle {
+.popular_title {
    color: #2F1767;
    font-size: 20px;
    padding-top: 15px;
    text-align: center;
 }
-.popularDiscription {
+.popular_discription {
     font-size: 12px;
     color: #5f5f5f;
     text-align: center;

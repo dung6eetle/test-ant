@@ -1,6 +1,6 @@
 import classes from "../../classes/NewPage.module.css";
 import Pagination from "../common/Pagination";
-import React, { useState } from "react";
+import React from "react";
 
 import NewPageModal from "./NewPageModal";
 
@@ -16,9 +16,9 @@ const NewPage = ({
   
   return (
     <>
-      <div className={classes.newPage}>
+      <div className={classes.new_page}>
         {props.items.map((i) => (
-          <div className={classes.pageContainer}>
+          <div className={classes.page_container}>
             <div
               className={classes.cards}
               onClick={() =>
@@ -32,7 +32,7 @@ const NewPage = ({
               <img
                 key={i.id}
                 src={`http://gallery.dev.webant.ru/media/${i.image.name}`}
-                className={classes.cardImg}
+                className={classes.card_img}
               ></img>
             </div>
           </div>

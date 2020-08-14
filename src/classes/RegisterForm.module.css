@@ -1,0 +1,82 @@
+.form_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.register_form_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  padding: 10px 90px;
+  background-color: rgb(251, 250, 181);
+  display: inline-block;
+  border-radius: 15px;
+}
+.phone_email_block {
+  display:flex;
+  flex-direction: row;
+}
+.password_fullname_block {
+  display:flex;
+  flex-direction: row;
+}
+.username_birthday_block {
+  display:flex;
+  flex-direction: row;
+}
+.button_block {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #030303;
+  padding-bottom: 10px;
+  padding-top: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.input_login:focus {
+  border: 1px solid rgb(230, 231, 231);
+}
+.input_login:focus::-webkit-input-placeholder {
+    color: transparent
+}
+.input_form {
+  font-size: 18px;
+  padding: 5px 2px;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  outline: none;
+}
+.input_form:focus {
+  border: 1px solid rgb(230, 231, 231);
+}
+.input_form:focus::-webkit-input-placeholder {
+    color: transparent
+}
+.data_form {
+  padding: 10px 10px;
+}
+.rememberme_form {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.button_login {
+  font-size: 18px;
+  padding: 10px 15px;
+}
+.button_register {
+  font-size: 18px;
+  padding: 10px 15px;
+}

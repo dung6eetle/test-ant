@@ -13,16 +13,16 @@ const Paginator = ({
     pages.push(i);
   }
   return (
-    <div className={classes.pageCountContainer}>
+    <div className={classes.page_count_container}>
       {pages.map((p) => {
         return (
-          <div className={classes.pageCount}>
+          <div className={classes.page_count}>
             <div
               key={p.id}
               className={
-                currentPage === p ? classes.selectedPage : classes.defaultPage
+                currentPage === p ? classes.selected_page : classes.default_page
               }
-              onClick={(e) => {
+              onClick={() => {
                 onPageChanged(p);
               }}
             >

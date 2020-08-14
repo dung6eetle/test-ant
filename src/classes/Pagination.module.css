@@ -1,21 +1,21 @@
 
-.pageCountContainer {
+.page_count_container {
     flex-direction: row;
     display: flex;
     justify-content: center;
     padding: 10px 10px;
 }
-.pageCount{
+.page_count{
     margin: 0px 10px;
     cursor:pointer;
 }
-.selectedPage {
+.selected_page {
     font-weight: bold;
     font-size: 14px;
     background-color: #ED5992;
     padding: 7px 14px;
 }
-.defaultPage {
+.default_page {
     font-size: 14px;
     background-color: #F0F2F5;
     padding: 7px 14px;
